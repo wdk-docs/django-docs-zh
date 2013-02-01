@@ -1,5 +1,5 @@
 =====================
-How to install Django
+如何安装Django
 =====================
 
 This document will get you up and running with Django.

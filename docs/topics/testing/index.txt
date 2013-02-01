@@ -1,5 +1,5 @@
 =================
-Testing in Django
+测试Django
 =================
 
 .. toctree::

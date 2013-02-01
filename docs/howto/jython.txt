@@ -1,5 +1,5 @@
 ========================
-Running Django on Jython
+在Jython运行Django
 ========================
 
 .. index:: Jython, Java, JVM

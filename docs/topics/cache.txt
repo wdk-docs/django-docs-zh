@@ -1,5 +1,5 @@
 ========================
-Django's cache framework
+Django缓存框架
 ========================
 
 A fundamental trade-off in dynamic Web sites is, well, they're dynamic. Each

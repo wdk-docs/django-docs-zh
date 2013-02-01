@@ -1,5 +1,5 @@
 ======
-Models
+模型
 ======
 
 Model API reference. For introductory material, see :doc:`/topics/db/models`.

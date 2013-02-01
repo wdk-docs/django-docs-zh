@@ -1,5 +1,5 @@
 ===================
-Design philosophies
+设计哲学
 ===================
 
 This document explains some of the fundamental philosophies Django's developers

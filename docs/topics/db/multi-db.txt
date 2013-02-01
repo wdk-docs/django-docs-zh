@@ -1,5 +1,5 @@
 ==================
-Multiple databases
+多数据库
 ==================
 
 This topic guide describes Django's support for interacting with
@@ -7,7 +7,7 @@ multiple databases. Most of the rest of Django's documentation assumes
 you are interacting with a single database. If you want to interact
 with multiple databases, you'll need to take some additional steps.
 
-Defining your databases
+定义你的数据库
 =======================
 
 The first step to using more than one database with Django is to tell
@@ -49,7 +49,7 @@ If you attempt to access a database that you haven't defined in your
 :setting:`DATABASES` setting, Django will raise a
 ``django.db.utils.ConnectionDoesNotExist`` exception.
 
-Synchronizing your databases
+同步数据库
 ============================
 
 The :djadmin:`syncdb` management command operates on one database at a
@@ -72,7 +72,7 @@ particular application directly into your database prompt, like this::
 
     $ ./manage.py sqlall sales | ./manage.py dbshell
 
-Using other management commands
+使用其他管理命令
 -------------------------------
 
 The other ``django-admin.py`` commands that interact with the database

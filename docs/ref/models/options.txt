@@ -1,5 +1,5 @@
 ======================
-Model ``Meta`` options
+模型 ``Meta`` 选项
 ======================
 
 This document explains all the possible :ref:`metadata options

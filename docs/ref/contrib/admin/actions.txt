@@ -1,5 +1,5 @@
 =============
-Admin actions
+管理动作
 =============
 
 .. currentmodule:: django.contrib.admin

@@ -1,5 +1,5 @@
 ======
-Models
+模型
 ======
 
 .. module:: django.db.models
@@ -19,7 +19,7 @@ The basics:
   database-access API; see :doc:`/topics/db/queries`.
 
 
-Quick example
+快捷例子
 =============
 
 This example model defines a ``Person``, which has a ``first_name`` and

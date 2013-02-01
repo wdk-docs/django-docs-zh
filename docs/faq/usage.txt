@@ -1,4 +1,4 @@
-FAQ: Using Django
+FAQ: 使用Django
 =================
 
 Why do I get an error about importing DJANGO_SETTINGS_MODULE?

@@ -1,6 +1,6 @@
 .. _formsets:
 
-Formsets
+表单集
 ========
 
 .. class:: django.forms.formset.BaseFormSet

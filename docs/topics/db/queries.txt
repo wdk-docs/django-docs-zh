@@ -1,5 +1,5 @@
 ==============
-Making queries
+制作查询
 ==============
 
 .. currentmodule:: django.db.models

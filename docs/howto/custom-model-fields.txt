@@ -1,10 +1,10 @@
 ===========================
-Writing custom model fields
+编写自定义模型字段
 ===========================
 
 .. currentmodule:: django.db.models
 
-Introduction
+介绍
 ============
 
 The :doc:`model reference </topics/db/models>` documentation explains how to use
@@ -25,7 +25,7 @@ Alternatively, you may have a complex Python object that can somehow be
 serialized to fit into a standard database column type. This is another case
 where a ``Field`` subclass will help you use your object with your models.
 
-Our example object
+我们的实例对象
 ------------------
 
 Creating custom fields requires a bit of attention to detail. To make things

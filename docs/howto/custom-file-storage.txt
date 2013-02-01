@@ -1,4 +1,4 @@
-Writing a custom storage system
+编写自定义存储系统
 ===============================
 
 .. currentmodule:: django.core.files.storage

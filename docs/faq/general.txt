@@ -1,4 +1,4 @@
-FAQ: General
+FAQ: 常用
 ============
 
 Why does this project exist?

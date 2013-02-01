@@ -1,5 +1,5 @@
 =================
-Django committers
+Django提交
 =================
 
 The original team

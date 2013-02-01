@@ -1,5 +1,5 @@
 =============================
-User authentication in Django
+Django用户认证系统
 =============================
 
 .. toctree::

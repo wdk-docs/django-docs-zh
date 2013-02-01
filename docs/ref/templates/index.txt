@@ -1,5 +1,5 @@
 =========
-Templates
+模板
 =========
 
 Django's template engine provides a powerful mini-language for defining the

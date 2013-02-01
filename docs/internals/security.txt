@@ -1,5 +1,5 @@
 ==========================
-Django's security policies
+Django的安全策略
 ==========================
 
 Django's development team is strongly committed to responsible

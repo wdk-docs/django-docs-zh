@@ -1,5 +1,5 @@
 ========================
-Model instance reference
+模型实例的引用
 ========================
 
 .. currentmodule:: django.db.models

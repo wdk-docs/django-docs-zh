@@ -1,5 +1,5 @@
 ==========
-Middleware
+中间件
 ==========
 
 .. module:: django.middleware

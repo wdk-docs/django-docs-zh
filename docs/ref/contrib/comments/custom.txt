@@ -1,5 +1,5 @@
 ==================================
-Customizing the comments framework
+自定义评论框架
 ==================================
 
 .. currentmodule:: django.contrib.comments

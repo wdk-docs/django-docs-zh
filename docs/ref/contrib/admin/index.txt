@@ -1,5 +1,5 @@
 =====================
-The Django admin site
+Django管理站点
 =====================
 
 .. module:: django.contrib.admin

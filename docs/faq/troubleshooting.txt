@@ -1,5 +1,5 @@
 ===============
-Troubleshooting
+疑难排解
 ===============
 
 This page contains some advice about errors and problems commonly encountered

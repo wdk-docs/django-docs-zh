@@ -1,4 +1,4 @@
-FAQ: The admin
+FAQ: 管理
 ==============
 
 I can't log in. When I enter a valid username and password, it just brings up the login page again, with no error messages.

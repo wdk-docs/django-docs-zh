@@ -1,5 +1,5 @@
 ======================================
-``django.conf.urls`` utility functions
+``django.conf.urls`` 实用功能
 ======================================
 
 .. module:: django.conf.urls

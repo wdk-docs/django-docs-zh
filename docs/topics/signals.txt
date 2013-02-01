@@ -1,5 +1,5 @@
 =======
-Signals
+信号
 =======
 
 .. module:: django.dispatch

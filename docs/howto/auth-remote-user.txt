@@ -1,5 +1,5 @@
 ====================================
-Authentication using ``REMOTE_USER``
+使用 ``REMOTE_USER`` 验证
 ====================================
 
 .. currentmodule:: django.contrib.auth.backends

@@ -1,5 +1,5 @@
 =============
-Sending email
+发布邮件
 =============
 
 .. module:: django.core.mail

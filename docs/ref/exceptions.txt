@@ -1,5 +1,5 @@
 =================
-Django Exceptions
+Django 异常
 =================
 
 

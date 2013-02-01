@@ -1,4 +1,4 @@
-FAQ: Contributing code
+FAQ: 贡献代码
 ======================
 
 How can I get started contributing code to Django?

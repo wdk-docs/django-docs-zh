@@ -1,5 +1,5 @@
 ==============
-Managing files
+管理文件
 ==============
 
 This document describes Django's file access APIs.

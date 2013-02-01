@@ -1,5 +1,5 @@
 ======================
-QuerySet API reference
+查询集 API 参考
 ======================
 
 .. currentmodule:: django.db.models.query

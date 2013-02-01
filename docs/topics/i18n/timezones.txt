@@ -1,12 +1,12 @@
 .. _time-zones:
 
 ==========
-Time zones
+时区
 ==========
 
 .. _time-zones-overview:
 
-Overview
+概述
 ========
 
 When support for time zones is enabled, Django stores date and time
@@ -51,7 +51,7 @@ but not mandatory. It's as simple as:
 If you're wrestling with a particular problem, start with the :ref:`time zone
 FAQ <time-zones-faq>`.
 
-Concepts
+概念
 ========
 
 Naive and aware datetime objects

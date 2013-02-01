@@ -1,5 +1,5 @@
 =================
-The redirects app
+重定向的应用程序
 =================
 
 .. module:: django.contrib.redirects

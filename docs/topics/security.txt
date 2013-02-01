@@ -1,5 +1,5 @@
 ==================
-Security in Django
+Django安全
 ==================
 
 This document is an overview of Django's security features. It includes advice
@@ -7,7 +7,7 @@ on securing a Django-powered site.
 
 .. _cross-site-scripting:
 
-Cross site scripting (XSS) protection
+夸站脚本攻击(XSS)保护
 =====================================
 
 .. highlightlang:: html+django

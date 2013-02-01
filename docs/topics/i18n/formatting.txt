@@ -1,10 +1,10 @@
 .. _format-localization:
 
 ===================
-Format localization
+格式本地化
 ===================
 
-Overview
+概述
 ========
 
 Django's formatting system is capable to display dates, times and numbers in templates using the format specified for the current :term:`locale <locale
@@ -32,7 +32,7 @@ necessary to set :setting:`USE_L10N = True <USE_L10N>` in your settings file.
     controls if Django should activate translation. See
     :doc:`/topics/i18n/translation` for more details.
 
-Locale aware input in forms
+表单输入本地检测
 ===========================
 
 When formatting is enabled, Django can use localized formats when parsing dates,
@@ -55,7 +55,7 @@ To enable a form field to localize input and output data simply use its
 
 .. _topic-l10n-templates:
 
-Controlling localization in templates
+在模板中控制本地化
 =====================================
 
 When you have enabled formatting with :setting:`USE_L10N`, Django
@@ -72,12 +72,12 @@ To allow for fine control over the use of localization, Django
 provides the ``l10n`` template library that contains the following
 tags and filters.
 
-Template tags
+模板标签
 -------------
 
 .. templatetag:: localize
 
-localize
+本土化
 ~~~~~~~~
 
 Enables or disables localization of template variables in the

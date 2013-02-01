@@ -1,4 +1,4 @@
-File storage API
+文件存储API
 ================
 
 .. module:: django.core.files.storage

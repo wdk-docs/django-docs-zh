@@ -1,5 +1,5 @@
 ===================
-Porting to Python 3
+移植到Python 3
 ===================
 
 Django 1.5 is the first version of Django to support Python 3. The same code

@@ -1,4 +1,4 @@
-The ``File`` object
+``File`` 对象
 ===================
 
 The :mod:`django.core.files` module and its submodules contain built-in classes

@@ -1,5 +1,5 @@
 ============================
-Database access optimization
+优化数据库访问
 ============================
 
 Django's database layer provides various ways to help developers get the most

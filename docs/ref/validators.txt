@@ -1,5 +1,5 @@
 ==========
-Validators
+验证
 ==========
 
 .. module:: django.core.validators

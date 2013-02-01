@@ -1,7 +1,7 @@
 .. highlightlang:: html+django
 
 ===========================================
-Example of using the built-in comments app
+使用内置评论应用
 ===========================================
 
 Follow the first three steps of the quick start guide in the

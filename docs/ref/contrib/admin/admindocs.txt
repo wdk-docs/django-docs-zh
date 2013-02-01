@@ -1,5 +1,5 @@
 ========================================
-The Django admin documentation generator
+Django管理文档生成器
 ========================================
 
 .. module:: django.contrib.admindocs

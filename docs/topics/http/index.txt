@@ -1,4 +1,4 @@
-Handling HTTP requests
+处理HTTP请求
 ======================
 
 Information on handling HTTP requests in Django:

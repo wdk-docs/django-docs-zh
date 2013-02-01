@@ -1,5 +1,5 @@
 ===========================
-Outputting PDFs with Django
+用Django输出PDFs
 ===========================
 
 This document explains how to output PDF files dynamically using Django views.

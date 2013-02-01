@@ -1,5 +1,5 @@
 ==============
-URL dispatcher
+URL 分发器
 ==============
 
 A clean, elegant URL scheme is an important detail in a high-quality Web

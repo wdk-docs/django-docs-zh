@@ -1,4 +1,4 @@
-Django internals
+Django内部构件
 ================
 
 Documentation for people hacking on Django itself. This is the place to go if

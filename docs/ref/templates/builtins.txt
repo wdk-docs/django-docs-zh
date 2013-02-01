@@ -1,5 +1,5 @@
 ==================================
-Built-in template tags and filters
+内置的模板标签和过滤器
 ==================================
 
 This document describes Django's built-in template tags and filters. It is

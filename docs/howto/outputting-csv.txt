@@ -1,5 +1,5 @@
 ==========================
-Outputting CSV with Django
+用Django输出CSV
 ==========================
 
 This document explains how to output CSV (Comma Separated Values) dynamically

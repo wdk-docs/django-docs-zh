@@ -1,5 +1,5 @@
 ########################
-One-to-one relationships
+一对一关联
 ########################
 
 .. highlight:: pycon

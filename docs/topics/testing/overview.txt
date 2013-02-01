@@ -1,5 +1,5 @@
 ===========================
-Testing Django applications
+测试Django应用
 ===========================
 
 .. module:: django.test

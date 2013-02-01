@@ -1,5 +1,5 @@
 ==========
-Pagination
+分页
 ==========
 
 .. module:: django.core.paginator

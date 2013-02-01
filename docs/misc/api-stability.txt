@@ -1,5 +1,5 @@
 =============
-API stability
+API 稳定性
 =============
 
 :doc:`The release of Django 1.0 </releases/1.0>` comes with a promise of API

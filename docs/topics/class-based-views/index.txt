@@ -1,5 +1,5 @@
 =================
-Class-based views
+基类视图
 =================
 
 A view is a callable which takes a request and returns a

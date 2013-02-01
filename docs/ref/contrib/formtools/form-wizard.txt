@@ -1,5 +1,5 @@
 ===========
-Form wizard
+表单精灵
 ===========
 
 .. module:: django.contrib.formtools.wizard.views

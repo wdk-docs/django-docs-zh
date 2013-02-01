@@ -1,5 +1,5 @@
 ==============================================
-``django.core.urlresolvers`` utility functions
+``django.core.urlresolvers`` 实用功能
 ==============================================
 
 .. module:: django.core.urlresolvers

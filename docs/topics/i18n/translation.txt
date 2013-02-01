@@ -1,10 +1,10 @@
 ===========
-Translation
+翻译
 ===========
 
 .. module:: django.utils.translation
 
-Overview
+概述
 ========
 
 In order to make a Django project translatable, you have to add a minimal amount
@@ -44,10 +44,10 @@ from your :setting:`TEMPLATE_CONTEXT_PROCESSORS` setting.
     :mod:`django.middleware.locale.LocaleMiddleware`). If you haven't yet,
     see :ref:`how-django-discovers-language-preference`.
 
-Internationalization: in Python code
+Python代码国际化
 ====================================
 
-Standard translation
+标准翻译
 --------------------
 
 Specify a translation string by using the function
@@ -131,7 +131,7 @@ translations wouldn't be able to reorder placeholder text.
 
 .. _translator-comments:
 
-Comments for translators
+翻译注释
 ------------------------
 
 If you would like to give translators hints about a translatable string, you

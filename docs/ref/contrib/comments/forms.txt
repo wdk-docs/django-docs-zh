@@ -1,5 +1,5 @@
 ====================
-Comment form classes
+评论表单类
 ====================
 
 .. module:: django.contrib.comments.forms

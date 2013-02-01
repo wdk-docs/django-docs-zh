@@ -1,5 +1,5 @@
 ===================
-The staticfiles app
+静态文件应用
 ===================
 
 .. module:: django.contrib.staticfiles

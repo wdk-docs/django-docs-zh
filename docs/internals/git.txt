@@ -1,5 +1,5 @@
 =================================
-The Django source code repository
+Django源码仓库
 =================================
 
 When deploying a Django application into a real production environment, you

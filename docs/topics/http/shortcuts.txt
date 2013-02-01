@@ -1,5 +1,5 @@
 =========================
-Django shortcut functions
+Django 快捷键功能
 =========================
 
 .. module:: django.shortcuts
@@ -24,7 +24,7 @@ introduce controlled coupling for convenience's sake.
    :func:`render_to_response()` with a `context_instance` argument that
    forces the use of a :class:`~django.template.RequestContext`.
 
-Required arguments
+必选参数
 ------------------
 
 ``request``
@@ -33,7 +33,7 @@ Required arguments
 ``template_name``
     The full name of a template to use or sequence of template names.
 
-Optional arguments
+可选参数
 ------------------
 
 ``dictionary``
@@ -61,7 +61,7 @@ Optional arguments
     :ref:`namespaced URL resolution strategy <topics-http-reversing-url-namespaces>`
     for more information.
 
-Example
+实例
 -------
 
 The following example renders the template ``myapp/index.html`` with the
@@ -95,7 +95,7 @@ This example is equivalent to::
    Renders a given template with a given context dictionary and returns an
    :class:`~django.http.HttpResponse` object with that rendered text.
 
-Required arguments
+必选参数
 ------------------
 
 ``template_name``
@@ -104,7 +104,7 @@ Required arguments
     :ref:`template loader documentation <ref-templates-api-the-python-api>`
     for more information on how templates are found.
 
-Optional arguments
+可选参数
 ------------------
 
 ``dictionary``

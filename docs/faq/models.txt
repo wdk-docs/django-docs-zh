@@ -1,4 +1,4 @@
-FAQ: Databases and models
+FAQ: 数据库和模型
 =========================
 
 .. _faq-see-raw-sql-queries:

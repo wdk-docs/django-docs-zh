@@ -1,4 +1,4 @@
-Error reporting
+错误报告
 ===============
 
 When you're running a public site you should always turn off the

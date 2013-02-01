@@ -1,5 +1,5 @@
 ======================================
-Using the Django authentication system
+使用Django认证系统
 ======================================
 
 .. currentmodule:: django.contrib.auth

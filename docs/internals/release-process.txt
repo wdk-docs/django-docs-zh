@@ -1,5 +1,5 @@
 ========================
-Django's release process
+Django的发布进程
 ========================
 
 .. _official-releases:

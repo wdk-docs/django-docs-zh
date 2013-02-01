@@ -1,5 +1,5 @@
 =================
-Class-based views
+基于类的视图
 =================
 
 Class-based views API reference. For introductory material, see

@@ -1,5 +1,5 @@
 ===========
-Tablespaces
+表空间
 ===========
 
 A common paradigm for optimizing performance in database systems is the use of

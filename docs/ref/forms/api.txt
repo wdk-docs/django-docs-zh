@@ -1,5 +1,5 @@
 =============
-The Forms API
+表单API
 =============
 
 .. module:: django.forms

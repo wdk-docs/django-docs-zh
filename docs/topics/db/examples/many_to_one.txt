@@ -1,5 +1,5 @@
 #########################
-Many-to-one relationships
+多对一关联
 #########################
 
 .. highlight:: pycon

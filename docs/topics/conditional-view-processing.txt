@@ -1,5 +1,5 @@
 ===========================
-Conditional View Processing
+有条件的视图处理
 ===========================
 
 HTTP clients can send a number of headers to tell the server about copies of a

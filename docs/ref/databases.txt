@@ -1,5 +1,5 @@
 =========
-Databases
+数据库
 =========
 
 Django attempts to support as many features as possible on all database

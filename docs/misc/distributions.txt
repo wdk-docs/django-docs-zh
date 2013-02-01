@@ -1,5 +1,5 @@
 ===================================
-Third-party distributions of Django
+Django第三方版本
 ===================================
 
 Many third-party distributors are now providing versions of Django integrated
@@ -22,7 +22,7 @@ a list of `Third Party Distributions`_ to help you out.
 .. _`Third Party Distributions`: https://code.djangoproject.com/wiki/Distributions
 
 
-For distributors
+为发布者
 ================
 
 If you'd like to package Django for distribution, we'd be happy to help out!

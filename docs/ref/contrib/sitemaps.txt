@@ -1,5 +1,5 @@
 =====================
-The sitemap framework
+站点地图框架
 =====================
 
 .. module:: django.contrib.sitemaps

@@ -1,5 +1,5 @@
 ====================================
-Customizing authentication in Django
+自定义Django认证
 ====================================
 
 The authentication that comes with Django is good enough for most common cases,

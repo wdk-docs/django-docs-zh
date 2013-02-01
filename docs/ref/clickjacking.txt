@@ -1,5 +1,5 @@
 ========================
-Clickjacking Protection
+点击劫持的保护
 ========================
 
 .. module:: django.middleware.clickjacking

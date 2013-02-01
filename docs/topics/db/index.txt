@@ -1,4 +1,4 @@
-Models and databases
+模型和数据库
 ====================
 
 .. module:: django.db

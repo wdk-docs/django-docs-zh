@@ -1,5 +1,5 @@
 ============
-Unicode data
+Unicode数据
 ============
 
 Django natively supports Unicode data everywhere. Providing your database can
@@ -9,7 +9,7 @@ templates, models and the database.
 This document tells you what you need to know if you're writing applications
 that use data or templates that are encoded in something other than ASCII.
 
-Creating the database
+创建数据库
 =====================
 
 Make sure your database is configured to be able to store arbitrary string
@@ -37,7 +37,7 @@ handled transparently.
 
 For more, see the section "The database API" below.
 
-General string handling
+一般的字符串处理
 =======================
 
 Whenever you use strings with Django -- e.g., in database lookups, template

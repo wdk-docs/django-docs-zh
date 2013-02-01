@@ -1,5 +1,5 @@
 =======================
-Advanced testing topics
+高级测试技巧
 =======================
 
 The request factory
@@ -32,7 +32,7 @@ restricted subset of the test client API:
   attributes must be supplied by the test itself if required
   for the view to function properly.
 
-Example
+实例
 -------
 
 The following is a simple unit test using the request factory::
@@ -55,12 +55,12 @@ The following is a simple unit test using the request factory::
 
 .. _topics-testing-advanced-multidb:
 
-Tests and multiple databases
+测试多数据库
 ============================
 
 .. _topics-testing-masterslave:
 
-Testing master/slave configurations
+测试主/从配置
 -----------------------------------
 
 If you're testing a multiple database configuration with master/slave

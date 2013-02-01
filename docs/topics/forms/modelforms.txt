@@ -1,5 +1,5 @@
 ==========================
-Creating forms from models
+从模型中创建表单
 ==========================
 
 .. module:: django.forms.models

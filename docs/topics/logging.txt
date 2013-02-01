@@ -1,5 +1,5 @@
 =======
-Logging
+日志
 =======
 
 .. module:: django.utils.log

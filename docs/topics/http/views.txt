@@ -1,5 +1,5 @@
 =============
-Writing views
+编写视图
 =============
 
 A view function, or *view* for short, is simply a Python function that takes a
@@ -12,7 +12,7 @@ speak. For the sake of putting the code *somewhere*, the convention is to
 put views in a file called ``views.py``, placed in your project or
 application directory.
 
-A simple view
+一个简单视图
 =============
 
 Here's a view that returns the current date and time, as an HTML document:
@@ -52,14 +52,14 @@ Let's step through this code one line at a time:
     ``America/Chicago``. This probably isn't where you live, so you might want
     to change it in your settings file.
 
-Mapping URLs to views
+映射URLs到视图
 =====================
 
 So, to recap, this view function returns an HTML page that includes the current
 date and time. To display this view at a particular URL, you'll need to create a
 *URLconf*; see :doc:`/topics/http/urls` for instructions.
 
-Returning errors
+返回错误
 ================
 
 Returning HTTP error codes in Django is easy. There are subclasses of
@@ -92,7 +92,7 @@ to create a return class for any status code you like. For example::
 Because 404 errors are by far the most common HTTP error, there's an easier way
 to handle those errors.
 
-The Http404 exception
+Http404 异常
 ---------------------
 
 .. class:: django.http.Http404()
@@ -124,7 +124,7 @@ called ``404.html`` and located in the top level of your template tree.
 
 .. _customizing-error-views:
 
-Customizing error views
+自定义错误视图
 =======================
 
 .. _http_not_found_view:
@@ -168,7 +168,7 @@ Three things to note about 404 views:
 
 .. _http_internal_server_error_view:
 
-The 500 (server error) view
+500 (服务器错误)视图
 ----------------------------
 
 Similarly, Django executes special-case behavior in the case of runtime errors
@@ -198,7 +198,7 @@ One thing to note about 500 views:
 
 .. _http_forbidden_view:
 
-The 403 (HTTP Forbidden) view
+403 (HTTP 禁用)视图
 -----------------------------
 
 In the same vein as the 404 and 500 views, Django has a view to handle 403

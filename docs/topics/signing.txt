@@ -1,5 +1,5 @@
 =====================
-Cryptographic signing
+加密签名
 =====================
 
 .. module:: django.core.signing
@@ -25,7 +25,7 @@ You may also find signing useful for the following:
   protected resource, for example a downloadable file that a user has
   paid for.
 
-Protecting the SECRET_KEY
+保护SECRET_KEY
 =========================
 
 When you create a new Django project using :djadmin:`startproject`, the
@@ -34,7 +34,7 @@ When you create a new Django project using :djadmin:`startproject`, the
 data -- it is vital you keep this secure, or attackers could use it to
 generate their own signed values.
 
-Using the low-level API
+使用低级API
 =======================
 
 .. class:: Signer
@@ -74,7 +74,7 @@ generate signatures. You can use a different secret by passing it to the
     >>> value
     'My string:EkfQJafvGyiofrdGnuthdxImIJw'
 
-Using the salt argument
+使用盐参数
 -----------------------
 
 If you do not wish for every occurrence of a particular string to have the same

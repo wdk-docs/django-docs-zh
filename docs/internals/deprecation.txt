@@ -1,5 +1,5 @@
 ===========================
-Django Deprecation Timeline
+Django弃用时间线
 ===========================
 
 This document outlines when various pieces of Django will be removed or altered

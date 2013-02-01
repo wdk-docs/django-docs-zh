@@ -1,5 +1,5 @@
 ===============
-Django settings
+Django设置
 ===============
 
 A Django settings file contains all the configuration of your Django

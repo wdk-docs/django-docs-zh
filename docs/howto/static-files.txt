@@ -1,5 +1,5 @@
 =====================
-Managing static files
+管理静态文件
 =====================
 
 Django developers mostly concern themselves with the dynamic parts of web

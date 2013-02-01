@@ -1,5 +1,5 @@
 ======================
-The messages framework
+消息框架
 ======================
 
 .. module:: django.contrib.messages

@@ -1,5 +1,5 @@
 =========================================
-Integrating Django with a legacy database
+Django与传统数据库整合
 =========================================
 
 While Django is best suited for developing new applications, it's quite

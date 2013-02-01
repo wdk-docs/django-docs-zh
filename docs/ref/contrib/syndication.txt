@@ -1,5 +1,5 @@
 ==============================
-The syndication feed framework
+联合供稿框架
 ==============================
 
 .. module:: django.contrib.syndication

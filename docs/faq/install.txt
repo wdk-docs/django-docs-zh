@@ -1,4 +1,4 @@
-FAQ: Installation
+FAQ: 安装
 =================
 
 How do I get started?

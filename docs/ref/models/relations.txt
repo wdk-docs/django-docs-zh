@@ -1,5 +1,5 @@
 =========================
-Related objects reference
+关联对象参考
 =========================
 
 .. currentmodule:: django.db.models.fields.related

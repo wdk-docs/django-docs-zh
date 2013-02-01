@@ -1,5 +1,5 @@
 ==========================
-Performing raw SQL queries
+执行原始的SQL查询
 ==========================
 
 .. currentmodule:: django.db.models

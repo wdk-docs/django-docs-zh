@@ -1,5 +1,5 @@
 ==========================
-Serializing Django objects
+序列化Django对象
 ==========================
 
 Django's serialization framework provides a mechanism for "translating" Django

@@ -1,5 +1,5 @@
 =================================
-Providing initial data for models
+为模型提供初始数据
 =================================
 
 It's sometimes useful to pre-populate your database with hard-coded data when

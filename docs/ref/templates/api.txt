@@ -1,5 +1,5 @@
 ====================================================
-The Django template language: For Python programmers
+Django模板语言: Python程序员
 ====================================================
 
 This document explains the Django template system from a technical

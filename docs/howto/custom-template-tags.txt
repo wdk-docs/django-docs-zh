@@ -1,5 +1,5 @@
 ================================
-Custom template tags and filters
+自定义模板标签和过滤器
 ================================
 
 Django's template system comes with a wide variety of :doc:`built-in

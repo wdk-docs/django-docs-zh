@@ -1,5 +1,5 @@
 ===================
-How to use sessions
+如何使用对话
 ===================
 
 .. module:: django.contrib.sessions

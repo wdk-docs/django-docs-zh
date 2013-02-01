@@ -1,5 +1,5 @@
 ============================
-The Django template language
+Django模板语言
 ============================
 
 .. admonition:: About this document
