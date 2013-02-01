@@ -1,5 +1,5 @@
 =============================================
-Advanced tutorial: How to write reusable apps
+高级指南: 如何编写可重用的应用程序
 =============================================
 
 This advanced tutorial begins where :doc:`Tutorial 5 </intro/tutorial05>` left
@@ -9,7 +9,7 @@ reuse in new projects and share with other people.
 If you haven't recently completed Tutorials 1–5, we encourage you to review
 these so that your example project matches the one described below.
 
-Reusability matters
+可重用性事项
 ===================
 
 It's a lot of work to design, build, test and maintain a web application. Many
@@ -50,7 +50,7 @@ projects and ready to publish for others to install and use.
     Python package easy for others to install. It can be a little confusing, we
     know.
 
-Completing your reusable app
+完成你的可复用应用
 ============================
 
 After the previous tutorials, our project should look like this::
@@ -141,7 +141,7 @@ need to package the app to make it easy for others to install.
 
 .. _installing-reusable-apps-prerequisites:
 
-Installing some prerequisites
+安装一些先决条件
 =============================
 
 The current state of Python packaging is a bit muddled with various tools. For
@@ -155,7 +155,7 @@ the same way.
 .. _distribute: http://pypi.python.org/pypi/distribute
 .. _pip: http://pypi.python.org/pypi/pip
 
-Packaging your app
+打包你的应用
 ==================
 
 Python *packaging* refers to preparing your app in a specific format that can
@@ -329,7 +329,7 @@ working. We'll now fix this by installing our new ``django-polls`` package.
 .. _7-zip: http://www.7-zip.org/
 .. _pip: http://pypi.python.org/pypi/pip
 
-Publishing your app
+发布你的应用
 ===================
 
 Now that we've packaged and tested ``django-polls``, it's ready to share with
@@ -347,7 +347,7 @@ For more information on PyPI, see the `Quickstart
 section of The Hitchhiker's Guide to Packaging. One detail this guide mentions
 is choosing the license under which your code is distributed.
 
-Installing Python packages with virtualenv
+在虚拟环境中安装Python软件包
 ==========================================
 
 Earlier, we installed the polls app as a user library. This has some

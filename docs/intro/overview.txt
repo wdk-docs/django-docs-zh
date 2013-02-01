@@ -1,5 +1,5 @@
 ==================
-Django at a glance
+Django一瞥
 ==================
 
 Because Django was developed in a fast-paced newsroom environment, it was
@@ -12,7 +12,7 @@ reference -- but we've got both! When you're ready to start a project, you can
 :doc:`start with the tutorial </intro/tutorial01>` or :doc:`dive right into more
 detailed documentation </topics/index>`.
 
-Design your model
+设计你的模型
 =================
 
 Although you can use Django without a database, it comes with an
@@ -39,7 +39,7 @@ the file ``mysite/news/models.py``::
         def __unicode__(self):
             return self.headline
 
-Install it
+安装它
 ==========
 
 Next, run the Django command-line utility to create the database tables
@@ -52,7 +52,7 @@ automatically:
 The :djadmin:`syncdb` command looks at all your available models and creates
 tables in your database for whichever tables don't already exist.
 
-Enjoy the free API
+享受免费的API
 ==================
 
 With that, you've got a free, and rich, :doc:`Python API </topics/db/queries>` to
@@ -129,7 +129,7 @@ access your data. The API is created on the fly, no code generation necessary:
     # Delete an object with delete().
     >>> r.delete()
 
-A dynamic admin interface: it's not just scaffolding -- it's the whole house
+一个充满活力的管理接口：它不只是的脚手架 - 这是整个房子
 ============================================================================
 
 Once your models are defined, Django can automatically create a professional,
@@ -163,7 +163,7 @@ One typical workflow in creating Django apps is to create models and get the
 admin sites up and running as fast as possible, so your staff (or clients) can
 start populating data. Then, develop the way data is presented to the public.
 
-Design your URLs
+设计你的URLs
 ================
 
 A clean, elegant URL scheme is an important detail in a high-quality Web
@@ -202,7 +202,7 @@ For example, if a user requested the URL "/articles/2005/05/39323/", Django
 would call the function ``news.views.article_detail(request,
 '2005', '05', '39323')``.
 
-Write your views
+书写你的视图
 ================
 
 Each view is responsible for doing one of two things: Returning an
@@ -222,7 +222,7 @@ This example uses Django's :doc:`template system </topics/templates>`, which has
 several powerful features but strives to stay simple enough for non-programmers
 to use.
 
-Design your templates
+设计你的模板
 =====================
 
 The code above loads the ``news/year_archive.html`` template.
@@ -302,7 +302,7 @@ abstraction layer, you can read XML files, you can read files off disk, or
 anything you want. Each piece of Django -- models, views, templates -- is
 decoupled from the next.
 
-This is just the surface
+这仅仅是表面
 ========================
 
 This has been only a quick overview of Django's functionality. Some more useful

@@ -1,4 +1,4 @@
-Quick install guide
+快速安装指南
 ===================
 
 Before you can use Django, you'll need to get it installed. We have a
@@ -6,7 +6,7 @@ Before you can use Django, you'll need to get it installed. We have a
 possibilities; this guide will guide you to a simple, minimal installation
 that'll work while you walk through the introduction.
 
-Install Python
+安装Python
 --------------
 
 Being a Python Web framework, Django requires Python. It works with any Python
@@ -34,7 +34,7 @@ you should see something like::
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
-Set up a database
+设置数据库
 -----------------
 
 This step is only necessary if you'd like to work with a "large" database engine
@@ -48,7 +48,7 @@ If you are upgrading your installation of Django from a previous version, you
 will need to :ref:`uninstall the old Django version before installing the new
 version <removing-old-versions-of-django>`.
 
-Install Django
+安装Django
 --------------
 
 You've got three easy options to install Django:
@@ -74,7 +74,7 @@ You've got three easy options to install Django:
     they likely won't work with an official release.
 
 
-Verifying
+验证
 ---------
 
 To verify that Django can be seen by Python, type ``python`` from your shell.
@@ -88,7 +88,7 @@ Then at the Python prompt, try to import Django:
 
 You may have another version of Django installed.
 
-That's it!
+就这样!
 ----------
 
 That's it -- you can now :doc:`move onto the tutorial </intro/tutorial01>`.

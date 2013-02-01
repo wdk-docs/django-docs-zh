@@ -1,5 +1,5 @@
 =================
-What to read next
+下一步要读什么
 =================
 
 So you've read all the :doc:`introductory material </intro/index>` and have
@@ -20,7 +20,7 @@ how the documentation works so that you can get the most out of it.
 (Yes, this is documentation about documentation. Rest assured we have no plans
 to write a document about how to read the document about documentation.)
 
-Finding documentation
+查找文档
 =====================
 
 Django's got a *lot* of documentation -- almost 450,000 words and counting --
@@ -29,7 +29,7 @@ are the :ref:`search` and the :ref:`genindex`.
 
 Or you can just browse around!
 
-How the documentation is organized
+文档是如何组织的
 ==================================
 
 Django's main documentation is broken up into "chunks" designed to fill
@@ -73,7 +73,7 @@ different needs:
   elsewhere </misc/index>`.
 
 
-How documentation is updated
+文档是如何更新的
 ============================
 
 Just as the Django code base is developed and improved on a daily basis, our
@@ -97,13 +97,13 @@ separate text file in the repository.
 
 .. _docs: https://github.com/django/django/tree/master/docs
 
-Where to get it
+那里可以获得文档
 ===============
 
 You can read Django documentation in several ways. They are, in order of
 preference:
 
-On the Web
+互联网上
 ----------
 
 The most recent version of the Django documentation lives at
@@ -127,7 +127,7 @@ IRC channel`_ instead.
 .. _django-users mailing list: http://groups.google.com/group/django-users
 .. _#django IRC channel: irc://irc.freenode.net/django
 
-In plain text
+纯文本
 -------------
 
 For offline reading, or just for convenience, you can read the Django
@@ -150,7 +150,7 @@ Django document:
 
     $ grep -r max_length /path/to/django/docs/
 
-As HTML, locally
+本地HTML版本
 ----------------
 
 You can get a local copy of the HTML documentation following a few easy steps:
@@ -192,7 +192,7 @@ __ http://www.gnu.org/software/make/
 
 .. _differences-between-doc-versions:
 
-Differences between versions
+版本之间的差异
 ============================
 
 As previously mentioned, the text documentation in our Git repository

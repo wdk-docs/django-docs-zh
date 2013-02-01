@@ -1,5 +1,5 @@
 =====================================
-Writing your first Django app, part 1
+编写你的第一个Django应用, part 1
 =====================================
 
 Let's learn by example.

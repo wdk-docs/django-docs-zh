@@ -11,7 +11,7 @@ all the backwards-incompatible changes and deprecated features for
 each 'final' release from the one after your current Django version,
 up to and including the new version.
 
-Final releases
+最终版本
 ==============
 
 .. _development_release_notes:
@@ -89,7 +89,7 @@ Pre-1.0 releases
    0.96
    0.95
 
-Development releases
+开发版本
 ====================
 
 These notes are retained for historical purposes. If you are upgrading
