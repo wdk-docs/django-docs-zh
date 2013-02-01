@@ -1,5 +1,5 @@
 =====================================
-Writing your first Django app, part 4
+编写你的第一个Django应用, part 4
 =====================================
 
 This tutorial begins where :doc:`Tutorial 3 </intro/tutorial03>` left off. We're
