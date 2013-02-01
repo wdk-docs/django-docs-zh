@@ -2,17 +2,17 @@
 
 {%- macro secondnav() %}
   {%- if prev %}
-    &laquo; <a href="{{ prev.link|e }}" title="{{ prev.title|e }}">previous</a> 
+    &laquo; <a href="{{ prev.link|e }}" title="{{ prev.title|e }}">上一个</a> 
     {{ reldelim2 }}
   {%- endif %}
   {%- if parents %}
-    <a href="{{ parents.0.link|e }}" title="{{ parents.0.title|e }}" accesskey="U">up</a> 
+    <a href="{{ parents.0.link|e }}" title="{{ parents.0.title|e }}" accesskey="U">向上</a> 
   {%- else %}
-    <a title="{{ docstitle }}" href="{{ pathto('index') }}" accesskey="U">up</a> 
+    <a title="{{ docstitle }}" href="{{ pathto('index') }}" accesskey="U">向上</a> 
   {%- endif %}
   {%- if next %}
   {{ reldelim2 }}
-    <a href="{{ next.link|e }}" title="{{ next.title|e }}">next</a> &raquo;
+    <a href="{{ next.link|e }}" title="{{ next.title|e }}">下一个</a> &raquo;
   {%- endif %}
 {%- endmacro %}
 
@@ -58,10 +58,10 @@
     <div id="hd">
       <h1><a href="{{ pathto('index') }}">{{ docstitle }}</a></h1>
       <div id="global-nav">
-        <a title="Home page" href="{{ pathto('index') }}">Home</a> {{ reldelim2 }}
-        <a title="Table of contents" href="{{ pathto('contents') }}">Table of contents</a> {{ reldelim2 }}
-        <a title="Global index" href="{{ pathto('genindex') }}">Index</a> {{ reldelim2 }}
-        <a title="Module index" href="{{ pathto('py-modindex') }}">Modules</a>
+        <a title="Home page" href="{{ pathto('index') }}">主页</a> {{ reldelim2 }}
+        <a title="Table of contents" href="{{ pathto('contents') }}">目录</a> {{ reldelim2 }}
+        <a title="Global index" href="{{ pathto('genindex') }}">索引</a> {{ reldelim2 }}
+        <a title="Module index" href="{{ pathto('py-modindex') }}">模块</a>
       </div>
       <div class="nav">{{ secondnav() }}</div>
     </div>
@@ -79,7 +79,7 @@
           <div class="yui-b" id="sidebar">
             {{ sidebar() }}
             {%- if last_updated %}
-              <h3>Last update:</h3>
+              <h3>上次更新:</h3>
               <p class="topless">{{ last_updated }}</p>
             {%- endif %}
           </div> 
@@ -94,16 +94,16 @@
 {% endblock %}
 
 {% block sidebarrel %}
-  <h3>Browse</h3>
+  <h3>浏览</h3>
   <ul>
     {% if prev %}
-      <li>Prev: <a href="{{ prev.link }}">{{ prev.title }}</a></li>
+      <li>上一个: <a href="{{ prev.link }}">{{ prev.title }}</a></li>
     {% endif %}
     {% if next %}
-      <li>Next: <a href="{{ next.link }}">{{ next.title }}</a></li>
+      <li>下一个: <a href="{{ next.link }}">{{ next.title }}</a></li>
     {% endif %}
   </ul>
-  <h3>You are here:</h3>
+  <h3>你在这里:</h3>
   <ul>
       <li>
         <a href="{{ pathto('index') }}">{{ docstitle }}</a>
