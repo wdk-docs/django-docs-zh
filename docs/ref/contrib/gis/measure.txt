@@ -1,7 +1,7 @@
 .. _ref-measure:
 
 ===================
-Measurement Objects
+测量对象
 ===================
 
 .. module:: django.contrib.gis.measure

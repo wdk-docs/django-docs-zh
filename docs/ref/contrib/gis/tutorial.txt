@@ -96,7 +96,7 @@ within the ``geodjango`` project:
     $ cd geodjango
     $ python manage.py startapp world
 
-配置``settings.py``
+配置 ``settings.py``
 -------------------------
 
 The ``geodjango`` project settings are stored in the ``geodjango/settings.py``
@@ -161,7 +161,7 @@ extensions:
 __ http://thematicmapping.org/downloads/TM_WORLD_BORDERS-0.3.zip
 __ http://en.wikipedia.org/wiki/Shapefile
 
-使用``ogrinfo``检测地理数据
+使用 ``ogrinfo`` 检测地理数据
 ---------------------------------------
 
 The GDAL ``ogrinfo`` utility allows examining the metadata of shapefiles or
@@ -262,7 +262,7 @@ argument. Use an integer representing the coordinate system's EPSG code.
 
 __ http://en.wikipedia.org/wiki/SRID
 
-运行``syncdb``
+运行 ``syncdb``
 --------------
 
 After defining your model, you need to sync it with the database. First,
@@ -324,7 +324,7 @@ besides the tools included within GeoDjango, you may also use the following:
 
 .. _gdalinterface:
 
-GDAL 接口
+GDAL接口
 --------------
 
 Earlier, you used ``ogrinfo`` to examine the contents of the world borders
@@ -510,7 +510,7 @@ Next, import the ``load`` module, call the ``run`` routine, and watch
 
 .. _ogrinspect-intro:
 
-试用 ``ogrinspect``
+试用``ogrinspect``
 ------------------
 Now that you've seen how to define geographic models and import data with the
 :ref:`ref-layermapping`, it's possible to further automate this process with
@@ -586,7 +586,7 @@ directly into the ``models.py`` of a GeoDjango application::
 空间查询
 ===============
 
-Spatial Lookups
+空间查找
 ---------------
 GeoDjango adds spatial lookups to the Django ORM.  For example, you
 can find the country in the ``WorldBorder`` table that contains
@@ -672,7 +672,7 @@ __ http://spatialreference.org/ref/epsg/32140/
     This is not absolutely required by PostGIS, but generally you should only
     use raw queries when you know exactly what you are doing.
 
-Lazy Geometries
+延迟几何体
 ---------------
 GeoDjango loads geometries in a standardized textual representation.  When the
 geometry field is first accessed, GeoDjango creates a `GEOS geometry object
@@ -698,7 +698,7 @@ the GEOS library::
     >>> pnt.contains(sm.mpoly)
     False
 
-``GeoQuerySet`` Methods
+``GeoQuerySet`` 方法
 -----------------------
 
 
@@ -711,7 +711,7 @@ the GEOS library::
 GeoDjango extends :doc:`Django's admin application </ref/contrib/admin/index>`
 with support for editing geometry fields.
 
-Basics
+基础
 ^^^^^^
 
 GeoDjango also supplements the Django admin by allowing users to create
@@ -736,7 +736,7 @@ Next, edit your ``urls.py`` in the ``geodjango`` application folder as follows::
         url(r'^admin/', include(admin.site.urls)),
     )
 
-Start up the Django development server:
+设置Django开发服务器:
 
 .. code-block:: bash
 
