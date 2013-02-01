@@ -1,5 +1,5 @@
 =============
-Release notes
+发行说明
 =============
 
 Release notes for the official Django releases. Each release note will tell you

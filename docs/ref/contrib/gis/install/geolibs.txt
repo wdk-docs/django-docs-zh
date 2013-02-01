@@ -1,7 +1,7 @@
 .. _geospatial_libs:
 
 ===============================
-Installing Geospatial libraries
+安装地理空间信息库
 ===============================
 
 GeoDjango uses and/or provides interfaces for the following open source

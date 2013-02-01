@@ -1,7 +1,7 @@
 .. _spatialite:
 
 =====================
-Installing Spatialite
+安装Spatialite
 =====================
 
 `SpatiaLite`__ adds spatial support to SQLite, turning it into a full-featured
@@ -21,7 +21,7 @@ __ http://www.gaia-gis.it/gaia-sins/
 
 .. _spatialite_source:
 
-Installing from source
+从源上安装
 ~~~~~~~~~~~~~~~~~~~~~~
 
 :ref:`GEOS and PROJ.4<geospatial_libs>` should be installed prior to building

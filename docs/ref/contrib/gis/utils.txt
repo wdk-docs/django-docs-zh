@@ -1,7 +1,7 @@
 .. _ref-gis-utils:
 
 ===================
-GeoDjango Utilities
+GeoDjango实用工具
 ===================
 
 .. module:: django.contrib.gis.utils

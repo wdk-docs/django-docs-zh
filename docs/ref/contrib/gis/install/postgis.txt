@@ -1,7 +1,7 @@
 .. _postgis:
 
 ==================
-Installing PostGIS
+安装PostGIS
 ==================
 
 `PostGIS`__ adds geographic object support to PostgreSQL, turning it
@@ -23,7 +23,7 @@ python-psycopg2 (x.x matching the PostgreSQL version you want to install).
 Please also consult platform-specific instructions if you are on :ref:`macosx`
 or :ref:`windows`.
 
-Building from source
+从源上创建
 ====================
 
 First download the source archive, and extract::

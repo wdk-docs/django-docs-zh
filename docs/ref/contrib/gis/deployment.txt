@@ -1,5 +1,5 @@
 ===================
-Deploying GeoDjango
+部署 GeoDjango
 ===================
 
 Basically, the deployment of a GeoDjango application is not different from

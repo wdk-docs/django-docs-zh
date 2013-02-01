@@ -1,7 +1,7 @@
 .. ref-geodjango-admin:
 
 =============================
-GeoDjango Management Commands
+GeoDjango管理命令
 =============================
 
 inspectdb

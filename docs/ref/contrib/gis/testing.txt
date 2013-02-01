@@ -1,5 +1,5 @@
 ======================
-Testing GeoDjango apps
+测试GeoDjango apps
 ======================
 
 Included in this documentation are some additional notes and settings

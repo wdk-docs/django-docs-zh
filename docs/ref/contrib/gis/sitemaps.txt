@@ -1,5 +1,5 @@
 ===================
-Geographic Sitemaps
+地理站点地图
 ===================
 
 Google's sitemap protocol used to include geospatial content support. [#]_

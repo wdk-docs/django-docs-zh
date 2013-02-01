@@ -1,7 +1,7 @@
 .. _ref-gis-admin:
 
 ======================
-GeoDjango's admin site
+GeoDjango's管理站点
 ======================
 
 .. module:: django.contrib.gis.admin

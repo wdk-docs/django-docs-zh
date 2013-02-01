@@ -1,7 +1,7 @@
 .. _ref-gis-db-api:
 
 ======================
-GeoDjango Database API
+GeoDjango数据库接口
 ======================
 
 .. _spatial-backends:

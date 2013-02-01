@@ -1,12 +1,12 @@
 .. _ref-gis-install:
 
 ======================
-GeoDjango Installation
+GeoDjango安装
 ======================
 
 .. highlight:: console
 
-Overview
+概述
 ========
 In general, GeoDjango installation requires:
 
@@ -29,7 +29,7 @@ instructions are available for:
     source may be required. When compiling the libraries from source, please
     follow the directions closely, especially if you're a beginner.
 
-Requirements
+需求
 ============
 
 .. _django:
@@ -72,10 +72,10 @@ PostgreSQL/PostGIS/GEOS/GDAL possible combinations.
 
 __ http://trac.osgeo.org/postgis/wiki/UsersWikiPostgreSQLPostGIS
 
-Installation
+安装
 ============
 
-Geospatial libraries
+地理空间库
 --------------------
 
 .. toctree::
@@ -83,7 +83,7 @@ Geospatial libraries
 
    geolibs
 
-Database installation
+数据库安装
 ---------------------
 
 .. toctree::
@@ -126,7 +126,7 @@ This adds an entry for the 900913 SRID to the ``spatial_ref_sys`` (or equivalent
 table, making it possible for the spatial database to transform coordinates in
 this projection.  You only need to execute this command *once* per spatial database.
 
-Troubleshooting
+故障排除
 ===============
 
 If you can't find the solution to your problem here then participate in the
@@ -145,7 +145,7 @@ __ https://code.djangoproject.com/newticket
 
 .. _libsettings:
 
-Library environment settings
+库环境设置
 ----------------------------
 
 By far, the most common problem when installing GeoDjango is that the
@@ -188,7 +188,7 @@ modifying the system library path::
 
 .. _binutils:
 
-Install ``binutils``
+安装 ``binutils``
 ^^^^^^^^^^^^^^^^^^^^
 
 GeoDjango uses the ``find_library`` function (from the ``ctypes.util`` Python
@@ -207,7 +207,7 @@ Similarly, on Red Hat and CentOS systems::
 
     $ sudo yum install binutils
 
-Platform-specific instructions
+特定平台的说明
 ==============================
 
 .. _macosx:
@@ -523,7 +523,7 @@ script, :download:`geodjango_setup.bat`.
     then you will need to modify the ``OSGEO4W_ROOT`` and/or ``PYTHON_ROOT``
     variables accordingly.
 
-Install Django and set up database
+安装Django和设置数据库
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finally, :ref:`install Django <installing-official-release>` on your system.

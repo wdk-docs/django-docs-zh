@@ -1,7 +1,7 @@
 .. _ref-gis-model-api:
 
 ===================
-GeoDjango Model API
+GeoDjango模型API
 ===================
 
 .. module:: django.contrib.gis.db.models
@@ -20,7 +20,7 @@ example::
 
 __ http://en.wikipedia.org/wiki/ZIP_code
 
-Geometry Field Types
+几何字段类型
 ====================
 
 Each of the following geometry field types correspond with the
@@ -68,7 +68,7 @@ OpenGIS Simple Features specification [#fnogc]_.
 
 .. _geometry-field-options:
 
-Geometry Field Options
+几何字段选项
 ======================
 
 In addition to the regular :ref:`common-model-field-options` available for
@@ -88,7 +88,7 @@ __ http://en.wikipedia.org/wiki/WGS84
 
 .. _selecting-an-srid:
 
-Selecting an SRID
+选择一个SRID
 ^^^^^^^^^^^^^^^^^
 
 Choosing an appropriate SRID for your model is an important decision that the

@@ -1,7 +1,7 @@
 .. _ref-geoip:
 
 ======================
-Geolocation with GeoIP
+GeoIP地理位置
 ======================
 
 .. module:: django.contrib.gis.geoip
@@ -25,7 +25,7 @@ __ http://www.maxmind.com/app/country
 __ http://www.maxmind.com/app/city
 __ http://www.maxmind.com/download/geoip/database/
 
-Example
+实例
 =======
 
 Assuming you have the GeoIP C library installed, here is an example of its

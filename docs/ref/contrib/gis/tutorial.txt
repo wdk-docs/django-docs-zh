@@ -1,8 +1,8 @@
 ==================
-GeoDjango Tutorial
+GeoDjango指南
 ==================
 
-Introduction
+介绍
 ============
 
 GeoDjango is an included contrib module for Django that turns it into a
@@ -40,10 +40,10 @@ basic apps`_ project. [#]_
 .. _world borders: http://thematicmapping.org/downloads/world_borders.php
 .. _GeoDjango basic apps: http://code.google.com/p/geodjango-basic-apps/
 
-Setting Up
+设置
 ==========
 
-Create a Spatial Database
+创建一个空间数据库
 -------------------------
 
 .. note::
@@ -78,7 +78,7 @@ template <spatialdb_template>`:
 If you are using SQLite and SpatiaLite, consult the instructions on how
 to create a :ref:`SpatiaLite database <create_spatialite_db>`.
 
-Create a New Project
+创建一个新项目
 ------------------------
 
 Use the standard ``django-admin.py`` script to create a project called
@@ -96,7 +96,7 @@ within the ``geodjango`` project:
     $ cd geodjango
     $ python manage.py startapp world
 
-Configure ``settings.py``
+配置``settings.py``
 -------------------------
 
 The ``geodjango`` project settings are stored in the ``geodjango/settings.py``
@@ -126,7 +126,7 @@ and ``world`` (your newly created application)::
         'world'
     )
 
-Geographic Data
+地理数据
 ===============
 
 .. _worldborders:
@@ -161,7 +161,7 @@ extensions:
 __ http://thematicmapping.org/downloads/TM_WORLD_BORDERS-0.3.zip
 __ http://en.wikipedia.org/wiki/Shapefile
 
-Use ``ogrinfo`` to examine spatial data
+使用``ogrinfo``检测地理数据
 ---------------------------------------
 
 The GDAL ``ogrinfo`` utility allows examining the metadata of shapefiles or
@@ -213,7 +213,7 @@ This detailed summary information tells us the number of features in the layer
 a maximum length of 2.  Similarly, ``LON: Real (8.3)`` is a floating-point
 field that holds a maximum of 8 digits up to three decimal places.
 
-Geographic Models
+地理模型
 =================
 
 Defining a Geographic Model
@@ -262,7 +262,7 @@ argument. Use an integer representing the coordinate system's EPSG code.
 
 __ http://en.wikipedia.org/wiki/SRID
 
-Run ``syncdb``
+运行``syncdb``
 --------------
 
 After defining your model, you need to sync it with the database. First,
@@ -305,7 +305,7 @@ If this looks correct, run ``syncdb`` to create this table in the database::
 The ``syncdb`` command may also prompt you to create an admin user. Either
 do so now, or later by running ``django-admin.py createsuperuser``.
 
-Importing Spatial Data
+插入地理数据
 ======================
 
 This section will show you how to import the world borders
@@ -324,7 +324,7 @@ besides the tools included within GeoDjango, you may also use the following:
 
 .. _gdalinterface:
 
-GDAL Interface
+GDAL 接口
 --------------
 
 Earlier, you used ``ogrinfo`` to examine the contents of the world borders
@@ -510,7 +510,7 @@ Next, import the ``load`` module, call the ``run`` routine, and watch
 
 .. _ogrinspect-intro:
 
-Try ``ogrinspect``
+试用 ``ogrinspect``
 ------------------
 Now that you've seen how to define geographic models and import data with the
 :ref:`ref-layermapping`, it's possible to further automate this process with
@@ -583,7 +583,7 @@ directly into the ``models.py`` of a GeoDjango application::
         'geom' : 'MULTIPOLYGON',
     }
 
-Spatial Queries
+空间查询
 ===============
 
 Spatial Lookups
@@ -628,7 +628,7 @@ of a queryset::
 The ``contains`` and ``intersects`` lookups are just a subset of the
 available queries -- the :ref:`ref-gis-db-api` documentation has more.
 
-Automatic Spatial Transformations
+自动空间转换
 ---------------------------------
 When doing spatial queries, GeoDjango automatically transforms
 geometries if they're in a different coordinate system.  In the following
@@ -702,10 +702,10 @@ the GEOS library::
 -----------------------
 
 
-Putting your data on the map
+将你的数据放在地图上
 ============================
 
-Geographic Admin
+地理管理员
 ----------------
 
 GeoDjango extends :doc:`Django's admin application </ref/contrib/admin/index>`
